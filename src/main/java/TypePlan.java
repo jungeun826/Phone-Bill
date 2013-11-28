@@ -104,87 +104,91 @@ enum Plan{
 /**
  * Gold(Plan Type)가 가지는 상수들을 저장
  * @author jungeun
- */
+ *//*
+*//**
+ * @author sec
+ *
+ *//*
 enum Gold{
-	/**
+	*//**
 	 * Gold Plan 의 매달 지불하는 기본 요금
-	 */
+	 *//*
 	BASIC_RATE(49.95),
-	/**
+	*//**
 	 * Gold Plan 의 추가 회선당 지불하는 추가 요금
-	 */
+	 *//*
 	ADDLINE_RATE (14.50),
-	/**
+	*//**
 	 * Gold Plan 의 매달 제공하는 기본 통화량(분)
-	 */
+	 *//*
 	SERVICE_MINUTE (1000),
-	/**
+	*//**
 	 * Gold Plan 의 매달 제공하는 기본 통화량(분)을 초과할 경우 분당 추가 요금
-	 */
+	 *//*
 	EXCESSMIN_RATE (0.45);
 	
-	/**
+	*//**
 	 * Gold에서 내부적으로 값을 저장할 때 쓰는 변수
-	 */
+	 *//*
 	private double value;
 	
-	/**
+	*//**
 	 * Gold에서 내부적으로 값을 저장하는 생성자
 	 * @param value Gold에서 내부적으로 값을 저장할 때 쓰는 변수
-	 */
+	 *//*
 	private Gold(double value){
 		this.value = value;
 	}
 	
-	/**
+	*//**
 	 * Gold의 특정 값을 얻을 때 사용하는 함수
 	 * @return value
-	 */
+	 *//*
 	public double getValue(){
 		return this.value;
 	}
 };
 
-/**
+*//**
  * Silver(Plan Type)가 가지는 상수들을 저장
  * @author jungeun
- */
+ *//*
 enum Silver{
-	/**
+	*//**
 	 * Silver Plan 의 매달 지불하는 기본 요금
-	 */
+	 *//*
 	BASIC_RATE(29.95),
-	/**
+	*//**
 	 * Silver Plan 의 추가 회선당 지불하는 추가 요금
-	 */
+	 *//*
 	ADDLINE_RATE (21.50),
-	/**
+	*//**
 	 * Silver Plan 의 매달 제공하는 기본 통화량(분)
-	 */
+	 *//*
 	SERVICE_MINUTE (500),
-	/**
+	*//**
 	 * Silver Plan 의 매달 제공하는 기본 통화량(분)을 초과할 경우 분당 추가 요금
-	 */
+	 *//*
 	EXCESSMIN_RATE (0.54);
 	
-	/**
+	*//**
 	 * Gold에서 내부적으로 값을 저장할 때 쓰는 변수
-	 */
+	 *//*
 	private double value;
 	
-	/**
+	*//**
 	 * Gold에서 내부적으로 값을 저장하는 생성자
 	 * @param value Gold에서 내부적으로 값을 저장할 때 쓰는 변수
-	 */
+	 *//*
 	private Silver(double value){
 		this.value = value;
 	}
 	
-	/**
+	*//**
 	 * Gold의 특정 값을 얻을 때 사용하는 함수
 	 * @return value
-	 */
+	 *//*
 	public double getValue(){
 		return this.value;
 	}
-};
+};*/

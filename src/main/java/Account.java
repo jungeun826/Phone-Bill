@@ -21,14 +21,6 @@ public class Account{
 	 */
 	private int usedMinutes;
 	
-	public Account(){
-		
-	}
-	public Account(String planType, int lines, int minutes){
-		this.lines = lines;
-		this.usedMinutes = minutes;
-	}
-	
 	public Type getPlanType() {
 		return planType;
 	}

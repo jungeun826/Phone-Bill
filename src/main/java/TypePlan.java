@@ -4,10 +4,6 @@
  */
 enum Type{
 	GOLD,SILVER;
-	private int value;
-	public int getValue(){
-		return this.value;
-	}
 };
 
 /**

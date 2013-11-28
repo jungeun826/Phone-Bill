@@ -37,7 +37,7 @@ public class BillCal {
 		total_bill += addLine_Bill();//가족할인 적용한 회선에 따른 추가요금 
 		total_bill += excessMinute_Bill();//추가 통화량에 따른 추가 요금
 		account.setBill(total_bill);
-		return total_bill;
+		return account.getBill();
 	}
 	
 	/**
